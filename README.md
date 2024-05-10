@@ -1,5 +1,5 @@
 # Waters MassLynx SDK (version 4.7.0.0, 64 bit)
-
+[![DOI](https://zenodo.org/badge/798701943.svg)](https://zenodo.org/doi/10.5281/zenodo.11174322)
 ## Obtaining code
 
 This code is neither created nor distributed by us. I have converted it into
