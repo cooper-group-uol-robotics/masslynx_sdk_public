@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masslynx"
+description = "Waters MassLynx SDK"
+version = "4.7.0"
+requires-python = ">=3.10"
+authors = [
+    { name = "Waters" },
+    { name = "Filip T. Szczypinski", email = "fiszczyp@gmail.com" },
+    { name = "Sriram Vijayakrishnan", email = "s.vijayakrishnan@liverpool.ac.uk" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+    [tool.setuptools.packages.find]
+    where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.dll", "*.lib"]
